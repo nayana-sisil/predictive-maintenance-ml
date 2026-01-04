@@ -1,7 +1,0 @@
-# Streamlit Cloud Compatible Requirements
-streamlit==1.28.0
-pandas==1.5.3  # Use older pandas for better compatibility
-numpy==1.24.3
-scikit-learn==1.2.2  # Older but stable version
-plotly==5.14.1
-joblib==1.2.0
