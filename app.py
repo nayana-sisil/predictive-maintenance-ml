@@ -43,11 +43,11 @@ st.markdown('<div class="main-header">⚙️ Predictive Maintenance Dashboard</d
 @st.cache_resource
 def load_models():
     try:
-        with open("Bagging_binary.pkl", "rb") as f:
+        with open("models/Bagging_binary.pkl", "rb") as f:
             bagging_model = pickle.load(f)
-        with open("randomforest_model.pkl", "rb") as f:
+        with open("models/randomforest_model.pkl", "rb") as f:
             rf_model = pickle.load(f)
-        with open("BalancedBagging_binary.pkl", "rb") as f:
+        with open("models/BalancedBagging_binary.pkl", "rb") as f:
             balanced_bagging_model = pickle.load(f)
         return bagging_model, rf_model, balanced_bagging_model
     except FileNotFoundError:
