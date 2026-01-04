@@ -24,8 +24,6 @@ A comprehensive machine learning-based predictive maintenance system built with 
 
 ## 🎯 Overview
 
-LIVE APP - https://machine-health-ai.streamlit.app/
-
 Traditional maintenance strategies often lead to unnecessary downtime or unexpected failures. This predictive maintenance system enables data-driven decision-making by detecting early warning signs of failure, improving reliability, reducing costs, and optimizing maintenance schedules.
 
 The dashboard provides:
