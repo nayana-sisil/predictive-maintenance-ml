@@ -1,5 +1,0 @@
-# Ignore Jupyter checkpoints
-.ipynb_checkpoints/
-
-# Ignore temporary files
-*.txt
